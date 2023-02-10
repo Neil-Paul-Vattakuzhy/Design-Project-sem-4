@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    position: relative;
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(40, 60, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-bottom: 2px white solid;
+    z-index: 1;
+}
+
+.navicon {
+    font-size: 1.5rem;
+
+}
+
+.navtitle {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.acc {
+    padding: 10px;
+}
+
+.acc button {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    transition: .1s;
+    font-size: 1rem;
+    color: white;
+}
+
+.acc button:hover {
+    background-color: white;
+    border-radius: 18px;
+    color: rgb(40, 60, 72);
+}
+
+.bgimg {
+    margin-top: 70px;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.sps {
+    height: 70px;
+    width: 100%;
+}
+
+.btnset1 {
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnset1 button {
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: white;
+    transition: .1s;
+}
+
+.btnset1 button:hover {
+    color: rgb(40, 60, 72);
+    background-color: white;
+    border-color: rgb(40, 60, 72);
+}
+
+.abtcon {
+    display: none;
+    padding: 15px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(40, 60, 72, .8);
+
+
+}
+
+.abt {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1rem;
+    padding: 10px;
+    animation: abtui 1s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@keyframes abtui {
+    from {
+        font-size: 0;
+    }
+
+}
+
+.abtcon button {
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+    border: none;
+}
+
+.abtcon button:hover {
+    color: red;
+}
+
+#logbox {
+    display: none;
+    
+}
+
+.logcon {
+    position: fixed;
+    height: fit-content;
+    min-width: 250px;
+    background-color: rgba(40, 60, 72,.8);
+    transform: translateX(40vw);
+    text-align: right;
+    border-radius: 7px;
+    animation-name: evolve;
+    animation-duration: 1s;
+
+
+
+}
+
+@keyframes evolve {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+#logclsbtn {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-right: 5px;
+}
+
+#logclsbtn:hover {
+    color: black;
+}
+
+.logcon .logarea {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.loghead {
+    text-align: center;
+    color: white;
+    padding: 0 5px 10px 5px;
+
+}
+
+.logbody {
+    text-align: center;
+    padding: 3px;
+}
+
+.logbody input {
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.logbody button {
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+}
+#signbox{
+    display: none;
+}
+.signcon {
+    position: fixed;
+    height: fit-content;
+    min-width: 250px;
+    background-color: rgba(40, 60, 72, .8);
+    transform: translateX(40vw);
+    text-align: right;
+    border-radius: 7px;
+    animation-name: evolve;
+    animation-duration: 1s;
+}
+.signcon .signarea{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+#signclsbtn {
+
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-right: 5px;
+
+}
+#signclsbtn:hover{
+    color: black;
+}
+.signhead {
+    text-align: center;
+    color: white;
+    padding: 0 5px 10px 5px;
+
+}
+.signbody{
+    text-align: center;
+    padding: 3px;
+}
+.signbody input {
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.signbody button{
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+}
+.btnset2{
+    display: flex;
+    padding: 100px 5px;
+    width: 99%;
+    justify-content: space-around;
+    
+}
+.btnset2 .items{
+    padding: 20px;
+    border: 2px black solid;
+    background-color: rgb(40, 60, 72);
+    
+    
+}
+.btnset2 .items img{
+    max-width: 250px;
+    height: 250px;
+}
+.btnset2 .items button{
+    width: 100%;
+    padding: 5px;
+    color: rgb(40, 60, 72);
+    transition: .2s;
+    border: none;
+
+}
+.btnset2 .items button:hover{
+    border-radius: 10px;
+    
+}
