@@ -1,14 +1,14 @@
+ html{
+    scroll-behavior: smooth;
+} 
 * {
     padding: 0;
     margin: 0;
 }
-
 body {
-
     position: relative;
     background-color: black;
 }
-
 nav {
     background-color: rgb(40, 60, 72);
     display: flex;
@@ -20,6 +20,7 @@ nav {
     color: white;
     border-bottom: 2px white solid;
     z-index: 1;
+    box-shadow: 0 0 10px 0 black;
 }
 
 .navicon {
@@ -64,10 +65,14 @@ nav {
     height: 70px;
     width: 100%;
 }
-
+#daystat{
+    text-align: right;
+    color: white;
+    padding: 10px;
+}
 .btnset1 {
     padding: 10px;
-    width: 200px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -79,6 +84,7 @@ nav {
     background-color: transparent;
     border-color: white;
     transition: .1s;
+    margin-right: 10px;
 }
 
 .btnset1 button:hover {
@@ -243,6 +249,13 @@ nav {
     padding: 5px;
     margin-bottom: 20px;
 }
+#confirm{
+    text-align: left;
+    padding: 10px 0;
+    color: white;
+    font-size: .8rem;
+    
+}
 .signbody button{
     border-radius: 15px;
     padding: 8px;
@@ -268,7 +281,7 @@ nav {
 }
 .btnset2 .items button{
     width: 100%;
-    padding: 5px;
+    padding: 8px;
     color: rgb(40, 60, 72);
     transition: .2s;
     border: none;
