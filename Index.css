@@ -291,3 +291,14 @@ nav {
     border-radius: 10px;
     
 }
+footer{
+    background-color: rgb(40, 60, 72);
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    border-top: 2px white solid;
+}
+footer div{
+    padding: 10px 0;
+    font-family: monospace;
+}

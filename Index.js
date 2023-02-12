@@ -62,7 +62,7 @@ function conf(){
     var pass2 = document.getElementById('pass2').value;
     console.log(pass2);
     if(pass1 == pass2){
-        document.getElementById('confirm').innerText='You are good to go';
+        document.getElementById('confirm').innerHTML='&check;  You are good to go';
         document.getElementById("signinbtn").disabled = false;
     }
     else{
