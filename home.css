@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+} 
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+    background-color: black;
+    opacity: 80%;
+}
+nav {
+    background-color: rgb(40, 60, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-bottom: 2px white solid;
+    z-index: 1;
+    box-shadow: 0 0 10px 0 black;
+}
+.navicon {
+    font-size: 1.5rem;
+
+}
+
+.navtitle {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.bgimg {
+    margin-top: 70px;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    opacity: 70%;
+    z-index: -1;
+}
+.username{
+    padding-right: 20px;
+}
