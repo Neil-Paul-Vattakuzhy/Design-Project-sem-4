@@ -1,13 +1,3 @@
-const abtbtn=document.getElementById('abtbtn');
-const abtcon=document.getElementById('abtcon1');
-const abtcls=document.getElementById('abtcls');
-abtbtn.addEventListener("click",()=>{
-    abtcon.style.display='flex';
-});
-abtcls.addEventListener('click',()=>{
-    abtcon.style.display='none';
-});
-
 
 document.getElementById("signinbtn").disabled = true;
 const logbox=document.getElementById('logbox');
@@ -17,6 +7,7 @@ const signbox=document.getElementById('signbox');
 const signbtn=document.getElementById('signbtn');
 const signclsbtn=document.getElementById('signclsbtn');
 logbtn.addEventListener('click',()=>{
+    console.log('logged')
     logbox.style.display='block';
     signbox.style.display='none';
 })

@@ -8,6 +8,7 @@
 body {
     position: relative;
     background-color: black;
+    opacity: 80%;
 }
 nav {
     background-color: rgb(40, 60, 72);
@@ -261,36 +262,7 @@ nav {
     padding: 8px;
     border: none;
 }
-.btnset2{
-    display: flex;
-    padding: 100px 5px;
-    width: 99%;
-    justify-content: space-around;
-    
-}
-.btnset2 .items{
-    padding: 20px;
-    border: 2px black solid;
-    background-color: rgb(40, 60, 72);
-    
-    
-}
-.btnset2 .items img{
-    max-width: 250px;
-    height: 250px;
-}
-.btnset2 .items button{
-    width: 100%;
-    padding: 8px;
-    color: rgb(40, 60, 72);
-    transition: .2s;
-    border: none;
 
-}
-.btnset2 .items button:hover{
-    border-radius: 10px;
-    
-}
 footer{
     background-color: rgb(40, 60, 72);
     text-align: center;
