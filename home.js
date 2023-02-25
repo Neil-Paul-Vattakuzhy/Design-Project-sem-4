@@ -13,3 +13,25 @@ abtbtn.addEventListener("click",()=>{
 abtcls.addEventListener('click',()=>{
     abtcon.style.display='none';
 });
+
+
+var navdropflag=false;
+const usernamebtn=document.getElementById('usernamebtn');
+usernamebtn.addEventListener('click',()=>{
+   if(navdropflag==false)
+   {
+    document.getElementById('navdrop').style.display='block';
+    navdropflag=!navdropflag;
+   }
+   else{
+    document.getElementById('navdrop').style.display='none';
+    navdropflag=!navdropflag;
+   }
+})
+
+
+
+const logoutbtn=document.getElementById('logoutbtn');
+logoutbtn.addEventListener('click',()=>{
+    window.open('Index.html','_self');
+})

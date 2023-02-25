@@ -1,21 +1,24 @@
-html{
+html {
     scroll-behavior: smooth;
-} 
+}
+
 * {
     padding: 0;
     margin: 0;
 }
+
 body {
     position: relative;
     background-color: black;
     opacity: 80%;
 }
+
 nav {
     background-color: rgb(40, 60, 72);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 10px;
+    padding: 7.5px 10px;
     position: fixed;
     width: 100%;
     color: white;
@@ -23,6 +26,7 @@ nav {
     z-index: 1;
     box-shadow: 0 0 10px 0 black;
 }
+
 .navicon {
     font-size: 1.5rem;
 
@@ -33,6 +37,130 @@ nav {
     font-family: cursive;
     padding: 10px;
 }
+
+.acc {
+    padding-right: 20px;
+}
+#usernamebtn {
+    padding: 5px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: none;
+    transition: .1s;
+    font-size: 0.8rem;
+    color: white;
+    transition: .4s;
+
+}
+
+#usernamebtn:hover {
+    
+    scale: 1.1;
+
+}
+#navdrop {
+    padding: 0 70px;
+    display: none;
+    
+    
+    /* border: 1px white solid;
+    animation: line 1s;
+    transition: border-color .2s; */
+    
+}
+#usernameline{
+    position: fixed;
+    width: 200px;
+    transform: translateX(-70px);
+    animation: lineun 1s ;
+}
+@keyframes lineun{
+    from{
+        width: 0;
+    }
+    to{
+        width:200px;
+    }
+}
+#navdrop button {
+    position: fixed;
+    padding: 4px 0;
+    width: 130px;
+    background-color: rgb(40, 60, 72);
+    transition: .4s;
+    color: white;
+    border: none;
+    
+    
+}
+#navdrop button:hover {
+    color: rgb(40, 60, 72);
+    background-color: white;
+}
+#myprofile {
+    transform: translateY(2px);
+    animation: dripfun1 .5s ease-in-out;
+    
+}
+@keyframes dripfun1 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+        
+    }
+
+}
+
+
+#updateprofile {
+    transform: translateY(24px);
+    animation: dripfun2 .5s ease-in-out;
+    
+}
+@keyframes dripfun2 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(24px);
+    }
+
+}
+#settings {
+    transform: translateY(47px);
+    animation: dripfun3 .6s ease-in-out;
+    
+    
+}
+@keyframes dripfun3 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(47px);
+    }
+
+}
+#logoutbtn {
+    transform: translateY(70px);
+    
+    animation: dripfun4 .6s ease-in-out;
+}
+@keyframes dripfun4 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(70px);
+    }
+
+}
 .bgimg {
     margin-top: 70px;
     position: fixed;
@@ -41,22 +169,21 @@ nav {
     opacity: 70%;
     z-index: -1;
 }
-.username{
-    padding-right: 20px;
-}
 
 .sps {
     height: 70px;
     width: 100%;
 }
-#daystat{
+
+#daystat {
     text-align: right;
     color: white;
     padding: 10px;
 }
+
 .btnset1 {
     padding: 10px;
-    
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -114,25 +241,29 @@ nav {
 .abtcon button:hover {
     color: red;
 }
-.btnset2{
+
+.btnset2 {
     display: flex;
     padding: 100px 5px;
     width: 99%;
     justify-content: space-around;
-    
+
 }
-.btnset2 .items{
+
+.btnset2 .items {
     padding: 20px;
     border: 2px black solid;
     background-color: rgb(40, 60, 72);
-    
-    
+
+
 }
-.btnset2 .items img{
+
+.btnset2 .items img {
     max-width: 250px;
     height: 250px;
 }
-.btnset2 .items button{
+
+.btnset2 .items button {
     width: 100%;
     padding: 8px;
     color: rgb(40, 60, 72);
@@ -140,9 +271,10 @@ nav {
     border: none;
 
 }
-.btnset2 .items button:hover{
+
+.btnset2 .items button:hover {
     border-radius: 10px;
-    
+
 }
 
 
@@ -158,30 +290,16 @@ nav {
 
 
 
-footer{
+footer {
     background-color: rgb(40, 60, 72);
     text-align: center;
     font-size: 1.1rem;
     color: white;
     border-top: 2px white solid;
 }
-footer div{
+
+footer div {
     padding: 10px 0;
     font-family: monospace;
 }
-.adminbtn{
-        padding: 5px;
-        background-color: transparent;
-        border: none;
-        transition: .1s;
-        font-size: 0.8rem;
-        color: white;
-    }
-    
-    .adminbtn:hover {
-        background-color: white;
-        border-radius: 18px;
-        color: rgb(40, 60, 72);
-    }
-    
 

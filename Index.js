@@ -6,6 +6,7 @@ const logclsbtn=document.getElementById('logclsbtn');
 const signbox=document.getElementById('signbox');
 const signbtn=document.getElementById('signbtn');
 const signclsbtn=document.getElementById('signclsbtn');
+const loginbtn=document.getElementById('loginbtn');
 logbtn.addEventListener('click',()=>{
     console.log('logged')
     logbox.style.display='block';
@@ -69,3 +70,21 @@ function conf(){
 
 // const contactbtn=document.getElementById('conbtn');
 // contactbtn.onclick=document.location.href='#contact';
+
+
+
+
+
+loginbtn.addEventListener('click',()=>{
+    const loginpass=document.getElementById('loginpass').value;
+    console.log(loginpass);
+    if(loginpass=='neil'){
+        window.open('home.html','_self');
+        alert('Welcome Neil Paul Vattakuzhy');
+        
+    }
+    else{
+        alert('Wrong pass...');
+        loginpass.value='';
+    }
+})
