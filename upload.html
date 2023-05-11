@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="upload.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <div class="navicon">
@@ -32,13 +34,13 @@
 
     </nav>
     <div class="bgcon">
-        <img src="Medical-full-body-screening-software-on-tablet-and-healthcare-devices.jpg-1280x797.jpg" alt="sorry" class="bgimg">
+        <img src="imgs/bgimg.jpg" alt="sorry" class="bgimg">
     </div>
     <div class="sps"></div>
     <div class="btnset1">
         <div>
             <button id="abtbtn">About us</button>
-            
+
         </div>
         <div id="daystat">Date</div>
 
@@ -56,80 +58,81 @@
 
 
 
-        <div class="form">
+    <div class="forms">
+        
         <form action="">
-            <div>
-                
-            <label for="documentname">Document name</label>
-            <input type="text" id="documentname" name="documentname">
-        </div>
-    
-        <br>
-        <div>
-            <label for="hospitalname">Hospital name</label>
-            <input type="text" id="hospitalname" name="hospitalname">
-        </div>
-    
-        <br>
-    
-        <div>
-            <label for="description">Description of issue</label>
-            <input type="text" id="description" name="description">
-        </div>
-    
-        <br>
-    
-        <div>
-            <label for="date">Issued date of medical document</label>
-            <input type="text" id="date" name="date">
-        </div>
-    
-        <br>
-    
-        <div>
-            <label for="type">Type of medical document</label>
-            <input type="text" id="type" name="type">
-        </div>
-    
-        <br>
-    
-        <div>
-            <label for="nameofdoc">Name of medical provider</label>
-            <input type="text" id="nameofdoc" name="nameofdoc">
-        </div>
-    
-
-        <br>
-
-        <div>
-            <form action="upload" method="post ">Upload file
-                <br>
-                <input type="file" name="upload" id="document">
-
-                <input type="submit" value="upload file">
-
-                <br>
-                
-
-                <div>
-                    <input type="submit">
-                </div>
+            <div class="formheader"> UPLOAD FILES</div>
             
-                <br>
-            
-                <div>
-                    <input type="reset">
+            <div class="formel">
+
+                <label for="documentname" class="desc">Document name:</label>
+                <input type="text" id="documentname" name="documentname">
+            </div>
+            <br>
+            <div class="formel">
+                <label for="hospitalname" class="desc">Hospital name:</label>
+                <input type="text" id="hospitalname" name="hospitalname">
+            </div>
+
+            <br>
+
+            <div class="formel">
+                <label for="description" class="desc">Description of issue:</label>
+                <input type="text" id="description" name="description">
+            </div>
+
+            <br>
+
+            <div class="formel">
+                <label for="date" class="desc">Issued date of medical document:</label>
+                <input type="text" id="date" name="date">
+            </div>
+
+            <br>
+
+            <div class="formel">
+                <label for="type" class="desc">Type of medical document:</label>
+                <input type="text" id="type" name="type">
+            </div>
+
+            <br>
+
+            <div class="formel">
+                <label for="nameofdoc" class="desc">Name of medical provider:</label>
+                <input type="text" id="nameofdoc" name="nameofdoc">
+            </div>
+
+
+            <br>
+            <div class="header">Upload file</div>
+            <div class="updoc">
+                
+                <div class="upopt">
+                    <input type="file" name="upload" id="document">
+
+                    <button>upload file</button>
                 </div>
-        
-            </form>
-        </div>
+                
+                
+            </div>
+            <div class="act">
+                <button>submit</button>
+                <button>reset</button>
+            </div>
+            
 
-        <br>
+            <!--  -->
+            
+            
 
-        
+            
 
-        
-    
+           
+
+
+
+
+
         </form>
     </div>
 
@@ -138,18 +141,15 @@
     <br>
     <br>
 
-    
+
+   
     <footer>
-        <div class="footercontact">
-            <div>
-                <button id="conbtn" >Contact us</button>
-            </div>
-        </div>
-    
+        <div> &copy;&#128509;Made by Neil Paul Vattakuzhy & P Asritha Indira </div>
     </footer>
     <script src="https://kit.fontawesome.com/6b06a3a3de.js" crossorigin="anonymous"></script>
 
     <script src="home.js"></script>
-    
+
 </body>
+
 </html>

@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,7 +10,7 @@ html {
 
 body {
     position: relative;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(6, 6, 6);
     opacity: 80%;
     overflow-x: hidden;
 
@@ -190,7 +191,6 @@ nav {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    opacity: 70%;
     z-index: -1;
 }
 .btnset3{
@@ -204,11 +204,87 @@ nav {
     height: 70px;
     width : 50%;
 }
-.bgcon{
-    background-image: url('Medical-full-body-screening-software-on-tablet-and-healthcare-devices.jpg-1280x797.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-   
+
+#daystat {
+    text-align: right;
+    padding: 10px;
+}
+ a{
+    text-decoration: none;
+ }
+
+.btnset1 {
+    padding: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnset1 button {
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: white;
+    transition: .1s;
+    margin-right: 10px;
+}
+
+.btnset1 button:hover {
+    color: rgb(40, 60, 72);
+    background-color: white;
+    border-color: rgb(40, 60, 72);
+}
+
+.abtcon {
+    display: none;
+    padding: 15px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(40, 60, 72, .8);
+
+
+}
+
+.abt {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1rem;
+    padding: 10px;
+    animation: abtui 1s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@keyframes abtui {
+    from {
+        font-size: 0;
+    }
+
+}
+
+.abtcon button {
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+    border: none;
+}
+
+.abtcon button:hover {
+    color: red;
+}
+
+
+
+footer {
+    background-color: rgb(40, 60, 72);
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    border-top: 2px white solid;
+}
+
+footer div {
+    padding: 10px 0;
+    font-family: monospace;
 }

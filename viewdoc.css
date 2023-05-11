@@ -9,11 +9,8 @@ html {
 
 body {
     position: relative;
-    background-color: rgb(6, 6, 6);
+    background-color: black;
     opacity: 80%;
-    overflow-x: hidden;
-
-
 }
 
 nav {
@@ -44,7 +41,6 @@ nav {
 .acc {
     padding-right: 20px;
 }
-
 #usernamebtn {
     padding: 5px;
     padding-left: 10px;
@@ -54,49 +50,38 @@ nav {
     font-size: 0.8rem;
     color: white;
     transition: .4s;
-    min-width: 200px;
 
 }
 
 #usernamebtn:hover {
-
+    
     scale: 1.1;
 
 }
-
 #navdrop {
     padding: 0 70px;
     display: none;
-
-
+    
+    
     /* border: 1px white solid;
     animation: line 1s;
     transition: border-color .2s; */
-
+    
 }
-
-#menubtn {
-    padding: 0 70px;
-    display: none;
-}
-
-#usernameline {
+#usernameline{
     position: fixed;
     width: 200px;
     transform: translateX(-70px);
-    animation: lineun 1s;
+    animation: lineun 1s ;
 }
-
-@keyframes lineun {
-    from {
+@keyframes lineun{
+    from{
         width: 0;
     }
-
-    to {
-        width: 200px;
+    to{
+        width:200px;
     }
 }
-
 #navdrop button {
     position: fixed;
     padding: 4px 0;
@@ -105,21 +90,18 @@ nav {
     transition: .4s;
     color: white;
     border: none;
-
-
+    
+    
 }
-
 #navdrop button:hover {
     color: rgb(40, 60, 72);
     background-color: white;
 }
-
 #myprofile {
     transform: translateY(2px);
     animation: dripfun1 .5s ease-in-out;
-
+    
 }
-
 @keyframes dripfun1 {
     from {
         transform: translateY(0);
@@ -127,7 +109,7 @@ nav {
 
     to {
         transform: translateY(2px);
-
+        
     }
 
 }
@@ -136,9 +118,8 @@ nav {
 #updateprofile {
     transform: translateY(24px);
     animation: dripfun2 .5s ease-in-out;
-
+    
 }
-
 @keyframes dripfun2 {
     from {
         transform: translateY(0);
@@ -149,14 +130,12 @@ nav {
     }
 
 }
-
 #settings {
     transform: translateY(47px);
     animation: dripfun3 .6s ease-in-out;
-
-
+    
+    
 }
-
 @keyframes dripfun3 {
     from {
         transform: translateY(0);
@@ -167,13 +146,11 @@ nav {
     }
 
 }
-
 #logoutbtn {
     transform: translateY(70px);
-
+    
     animation: dripfun4 .6s ease-in-out;
 }
-
 @keyframes dripfun4 {
     from {
         transform: translateY(0);
@@ -184,45 +161,25 @@ nav {
     }
 
 }
-
 .bgimg {
     margin-top: 70px;
     position: fixed;
     height: 100vh;
     width: 100vw;
+    opacity: 60%;
     z-index: -1;
-}
-.btnset3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
 }
 
 .sps {
     height: 70px;
-    width : 50%;
-}
-/* .bgcon{
-    background-image: url('Medical-full-body-screening-software-on-tablet-and-healthcare-devices.jpg-1280x797.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     width: 100%;
-
-} */
-/* .date {
-    display: flex;
-    justify-content: space-between;
-} */
+}
 
 #daystat {
     text-align: right;
+    color: white;
     padding: 10px;
 }
- a{
-    text-decoration: none;
- }
 
 .btnset1 {
     padding: 10px;
@@ -246,34 +203,6 @@ nav {
     background-color: white;
     border-color: rgb(40, 60, 72);
 }
-.btnset3 button {
-    color:white;
-    padding: 10px;
-    background-color: rgb(40, 60, 72) ;
-    justify-content: space-between;
-    
-   
-}
-.btnset3 button:hover{
-    scale: 1.1;
-
-}
-.btnset3  ul li button{
-    width: 6vw;
-    font-size: .6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.btnset3  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
 
 .abtcon {
     display: none;
@@ -313,95 +242,54 @@ nav {
     color: red;
 }
 
-.btnset2 {
-    display: flex;
-    padding: 100px 5px;
-    width: 99%;
-    justify-content: space-around;
-
-}
-
-.btnset2 .items {
-    padding: 20px;
-    border: 2px black solid;
-    background-color: rgb(40, 60, 72);
-
-
-}
-
-.btnset2 .items img {
-    max-width: 250px;
-    height: 250px;
-}
-
-.btnset2 .items button {
-    width: 100%;
-    padding: 8px;
-    color: rgb(40, 60, 72);
-    transition: .2s;
-    border: none;
-
-}
-
-.btnset2 .items button:hover {
-    border-radius: 10px;
-
-}
-.home{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80vw;
-    margin-top: 10rem;
-}
-.gotodocs{
-    background-image: url('imgs/gotodocs.jpg');
-    height: 33vh;
-    width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.btnopt{
+.displaycon{
     display: flex;
     justify-content: center;
-    align-items: end;
-    padding: 15px;
+    padding: 2vw;
 }
-.gotodocstext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
+.tablecon{
+    width: 80vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: white;
 }
-.upload{
-    background-image: url('imgs/upload\ docs.jpg');
-    height: 33vh;
+.head{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+.head span{
+    font-weight: 1000;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row{
+    
+    display: flex;
+    justify-content: space-between;  
+    padding: 1vw 0;
+}
+.rowel{
+    width: 10vw;
+    padding: .5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numcol{
+    width: 5vw;
+}
+.docnamecol{
+    width: 30vw;
+}
+.docidcol{
     width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.uploadtext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
-}
-.authorise{
-    background-image: url('imgs/gotodocs.jpg');
-    height: 33vh;
-    width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.authorisetext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
 
 }
-
+.rowel button{
+    width: 70%;
+    opacity: 100%;
+}
 
 
 
@@ -423,15 +311,4 @@ footer div {
     padding: 10px 0;
     font-family: monospace;
 }
-
-
-
-
-
-
-
-
-
-
-
 
