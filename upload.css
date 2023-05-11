@@ -9,7 +9,7 @@ html {
 
 body {
     position: relative;
-    background-color: rgb(6, 6, 6);
+    background-color: rgb(0, 0, 0);
     opacity: 80%;
     overflow-x: hidden;
 
@@ -200,29 +200,61 @@ nav {
     width: 100vw;
 }
 
-.sps {
+/* .sps {
     height: 70px;
     width : 50%;
-}
+} */
 /* .bgcon{
     background-image: url('Medical-full-body-screening-software-on-tablet-and-healthcare-devices.jpg-1280x797.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
+    */
 
-} */
-/* .date {
+.form{
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
-} */
+    margin-top: 4rem;
 
-#daystat {
-   position: fixed;
-   right: 2rem;
-   color: white;
+    
+    
+}
+form{
+    background-color: aliceblue;
+    padding: 50px;
+    
+    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(40, 60, 72);
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    border-top: 2px white solid;
+}
+
+footer div {
+    padding: 10px 0;
+    font-family: monospace;
+    
+}
 .btnset1 {
     padding: 10px;
     padding-right: 10px;
@@ -246,34 +278,74 @@ nav {
     border-color: rgb(40, 60, 72);
 }
 
-.btnset3 button {
-    color:white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sps {
+    height: 70px;
+    width: 100%;
+}
+
+#daystat {
+    text-align: right;
+    color: white;
     padding: 10px;
-    background-color: rgb(40, 60, 72) ;
+}
+
+.btnset1 {
+    padding: 10px;
+    padding-right: 10px;
+    display: flex;
     justify-content: space-between;
-    
-   
-}
-.btnset3 button:hover{
-    scale: 1.1;
-
-}
-.btnset3  ul li button{
-    width: 6vw;
-    font-size: .6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.btnset3  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
 }
 
+.btnset1 button {
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: white;
+    transition: .1s;
+    margin-right: 10px;
+}
+
+.btnset1 button:hover {
+    color: rgb(40, 60, 72);
+    background-color: white;
+    border-color: rgb(40, 60, 72);
+}
 
 .abtcon {
     display: none;
@@ -312,127 +384,3 @@ nav {
 .abtcon button:hover {
     color: red;
 }
-
-.btnset2 {
-    display: flex;
-    padding: 100px 5px;
-    width: 99%;
-    justify-content: space-around;
-
-}
-
-.btnset2 .items {
-    padding: 20px;
-    border: 2px black solid;
-    background-color: rgb(40, 60, 72);
-
-
-}
-
-.btnset2 .items img {
-    max-width: 250px;
-    height: 250px;
-}
-
-.btnset2 .items button {
-    width: 100%;
-    padding: 8px;
-    color: rgb(40, 60, 72);
-    transition: .2s;
-    border: none;
-
-}
-
-.btnset2 .items button:hover {
-    border-radius: 10px;
-
-}
-.home{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80vw;
-    margin-top: 10rem;
-}
-.gotodocs{
-    background-image: url('gotodocs.jpg');
-    height: 33vh;
-    width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.btnopt{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 15px;
-}
-.gotodocstext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
-}
-.upload{
-    background-image: url('upload\ docs.jpg');
-    height: 33vh;
-    width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.uploadtext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
-}
-.authorise{
-    background-image: url('gotodocs.jpg');
-    height: 33vh;
-    width: 15vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.authorisetext{
-    text-align: center;
-    color:rgb(40, 60, 72);
-    font-size: 25px;
-    position: relative;
-
-}
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: rgb(40, 60, 72);
-    text-align: center;
-    font-size: 1.1rem;
-    color: white;
-    border-top: 2px white solid;
-}
-
-footer div {
-    padding: 10px 0;
-    font-family: monospace;
-    padding-bottom: 40px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
